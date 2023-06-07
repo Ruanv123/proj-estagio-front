@@ -1,6 +1,8 @@
 export const colors = {
   black: "#212529",
+  white: "#fff",
   gray: {
+    300: "#CCCDD0",
     400: "#dee2e6",
     500: "#46494c",
   },
@@ -19,4 +21,5 @@ export const colors = {
   red: {
     warning: "#dc2f02",
   },
+  color_task: "#0A4B78",
 };

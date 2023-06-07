@@ -1,15 +1,22 @@
 import { styled } from "styled-components";
-import { colors } from "../../styles/colors";
 
 export const Table = styled.table`
-  background-color: ${colors.gray[500]};
+  width: 80vw;
+  border-collapse: collapse;
+  background-color: #dee2e6;
 `;
 
 export const Tablerow = styled.tr`
-  border: 1px solid ${colors.gray[400]};
+  border: 1px solid #000;
 `;
 
 export const Tableheader = styled.th`
-  background-color: yellow;
-  color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px 20px;
+`;
+
+export const Tablecel = styled.td`
+  border: 1px solid #000;
+  padding: 5px;
 `;
