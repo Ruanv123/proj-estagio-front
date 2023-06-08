@@ -24,18 +24,7 @@ export const Header = () => {
           <S.ButtonModal onClick={openModal}>Adcionar Produto</S.ButtonModal>
         </S.Content>
       </S.Wrapper>
-      {isModalOpen && (
-        <Modal onClose={closeModal}>
-          <S.ModalTitle>Cadastrar Produto</S.ModalTitle>
-          <S.ModalContainer>
-            <S.Input type="text" placeholder="dasdadad" />
-            <S.Input type="text" placeholder="dasdadad" />
-            <S.Input type="text" placeholder="dasdadad" />
-            <S.Input type="text" placeholder="dasdadad" />
-            <S.ModalButton>Cadastrar</S.ModalButton>
-          </S.ModalContainer>
-        </Modal>
-      )}
+      {isModalOpen && <Modal onClose={closeModal} />}
     </>
   );
 };

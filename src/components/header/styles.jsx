@@ -18,7 +18,6 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.div`
-  
   margin-left: 15px;
 `;
 
@@ -28,35 +27,4 @@ export const ButtonModal = styled.button`
   border: none;
   padding: 10px;
   cursor: pointer;
-`;
-
-export const ModalTitle = styled.h1`
-  font-size: 21;
-  font-weight: bold;
-`;
-
-export const ModalButton = styled.button`
-  border: none;
-  border-radius: 8px;
-  width: 100%;
-  background-color: #2186c4;
-  padding: 12px 20px;
-  cursor: pointer;
-  color: ${colors.white};
-`;
-
-export const ModalContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex: 1;
-  gap: 15px;
-`;
-
-export const Input = styled.input`
-  border: 1.5px solid ${colors.gray[300]};
-  border-radius: 8px;
-  outline: none;
-  padding: 12px 20px;
-  width: 100%;
 `;
