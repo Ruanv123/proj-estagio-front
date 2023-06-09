@@ -14,6 +14,7 @@ export const ModalWrapper = styled.div`
 `;
 
 export const ModalContent = styled.form`
+  user-select: none;
   background-color: white;
   padding: 25px;
   border-radius: 4px;

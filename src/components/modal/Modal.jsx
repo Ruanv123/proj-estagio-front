@@ -47,6 +47,7 @@ export const Modal = ({ onClose }) => {
               type="text"
               name="nome_produto"
               onChange={pegarValorInput}
+              required
             />
           </S.Label>
           <S.Label>
@@ -55,11 +56,17 @@ export const Modal = ({ onClose }) => {
               type="text"
               name="quantidade_str"
               onChange={pegarValorInput}
+              required
             />
           </S.Label>
           <S.Label>
             Valor:
-            <S.Input type="text" name="valor_str" onChange={pegarValorInput} />
+            <S.Input
+              type="text"
+              name="valor_str"
+              onChange={pegarValorInput}
+              required
+            />
           </S.Label>
           <S.ModalButton type="submit">Cadastrar</S.ModalButton>
         </S.ModalContainer>

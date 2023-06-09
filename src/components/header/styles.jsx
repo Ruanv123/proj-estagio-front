@@ -22,9 +22,11 @@ export const Logo = styled.div`
 `;
 
 export const ButtonModal = styled.button`
-  background-color: ${colors.green.sucess};
+  background-color: ${colors.green[500]};
   border-radius: 8px;
   border: none;
   padding: 10px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
 `;
